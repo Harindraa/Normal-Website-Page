@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <!-- Main Header -->
+     <Header class="main-header">
+        <!-- logo holder -->
+        <div class="logo-holder">
+            <a href="">
+                <img src="img/logo.png" width="40px">
+            </a>
+        </div>      
+        <!-- logo holder -->
+        <!-- search holder -->
+        <div class="search-holder">
+            <form action="" method="get">
+                <input type="search" name="s" placeholder="search for..">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        <!-- search holder -->
+     </Header>   
+    <!-- Main Header -->
+    <!-- Main Menu  -->
+     <nav class="main-menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a>
+                <ul class="dropdown">
+                    <li><a href="#">Service one</a></li>
+                    <li><a href="#">Service two</a></li>
+                    <li><a href="#">Service three</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+     </nav>
+    <!-- Main Menu  -->
+    <!-- services Holder  -->
+     <section class="services-holder">
+        <article class="service">
+            <h3>Service one</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, facere laboriosam.</p>
+            <a href="#">Read more</a>
+        </article>
+        <article class="service">
+            <h3>Service two</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, facere laboriosam.</p>
+            <a href="#">Read more</a>
+        </article>
+        <article class="service">
+            <h3>Service three</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, facere laboriosam.</p>
+            <a href="#">Read more</a>
+        </article>
+        <article class="service">
+            <h3>Service four</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, facere laboriosam.</p>
+            <a href="#">Read more</a>
+        </article>
+        <article class="service">
+            <h3>Service five</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, facere laboriosam.</p>
+            <a href="#">Read more</a>
+        </article>
+        <article class="service">
+            <h3>Service six</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, facere laboriosam.</p>
+            <a href="#">Read more</a>
+        </article>
+     </section>
+
+
+
+    <!-- services Holder  -->
+     
+    <!-- Footer widget -->
+     <section class="footer-widget-holder">
+        <div class="footer-widget">
+            <a href="#">
+                <img src="img/logo.png" width="50px">
+            </a>
+            <h3>Address</h3>
+            <address>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus nulla at alias.
+            </address>
+        </div>
+        <div class="footer-widget">
+            <h4>Sitemap</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Conatct</a></li>
+            </ul>
+        </div>
+        <div class="footer-widget">
+            <h4>Sitemap</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Conatct</a></li>
+            </ul>
+        </div>
+        <div class="footer-widget">
+            <h4>Sitemap</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Conatct</a></li>
+            </ul>
+        </div>
+     </section>
+    <!-- Footer widget -->
+    <!-- Site footer -->
+     <footer class="site-footer">
+        <p><small>copyrights &copy; 2030</small></p>
+     </footer>
+    <!-- Site footer -->
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+<script>
+        $(document).ready(function() {
+        $('#adaptive').lightSlider({
+            adaptiveHeight:true,
+            item:1,
+            slideMargin:0,
+            loop:true
+        });
+    });
+</script>
+    
+</body>
+</html>
